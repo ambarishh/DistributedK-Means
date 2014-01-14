@@ -1,6 +1,6 @@
-
-
-
+/*
+ * The driver program to implement kmeans
+ */
 
 
 import java.io.BufferedReader;
@@ -11,8 +11,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.net.URI;
-import java.util.Random;
-
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
@@ -67,7 +65,6 @@ public class Program {
   
     	
     	Job job = new Job();
-        Random r = new Random();
         int iteration = 0;    
         
         //This is the danger zone //

@@ -1,6 +1,5 @@
-
-
-/*Mapper:> ClusterNo: Points Belonging to it
+/*
+ * Mapper:> ClusterNo: Points Belonging to it
  * 1: <1,1> <2,2>
  */
 
